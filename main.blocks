@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id=",MNxEJfis%3,lBr1FJ[F">9</variable><variable id="/up5m,dMXh)c8v~|I-Gw">0</variable></variables><block type="device_print_message" id="N6$Y7{ZH#P0~$Bc23v*#" disabled="true" x="279" y="-43"><value name="text"><shadow type="text" id="t7tJ]F0]h3BKWnv[r9%;" disabled="true"><field name="TEXT">2b06 陳芷祈</field></shadow></value></block><block type="device_button_event" id="rLP4e$LuIrO9,Jz6?.`d" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="?]y,=P~iOD?8aAr,1UE+"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="Xc}*ho#:c80p3vlVAoC|"><field name="LEDS">`
+        . . . . . 
+        . . # . . 
+        . # . # . 
+        . . # . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="4=Q??d+xJW#^d,8kZ#dh"><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        # . . . # 
+        . # . # . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="d/(gzekZ@I+KZMK-kU#w"><field name="LEDS">`
+        . # . # . 
+        # . . . # 
+        . . . . . 
+        # . . . # 
+        . # . # .
+        `</field><next><block type="device_show_leds" id="2D@x-iMcW!S:FJ8X[yG["><field name="LEDS">`
+        # . . . # 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # . . . #
+        `</field><next><block type="device_show_leds" id="ehQnWq8[)hOkbL!=%[;?"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="]d%lp``3!7{d2b,gy]z," x="297" y="113"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="soundExpression_playSoundEffect" id="z;cdbivy~OM`wt?Qh$zf"><field name="mode">SoundExpressionPlayMode.UntilDone</field><value name="sound"><shadow type="soundExpression_createSoundEffect" id="gpr69Y4.wQ|icDOl-U,_" inline="true"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><field name="waveShape">WaveShape.Sine</field><field name="effect">SoundExpressionEffect.None</field><field name="interpolation">InterpolationCurve.Linear</field><data>{"commentRefs":[],"fieldData":{"waveShape":"{\"interpolation\":\"linear\",\"effect\":\"none\",\"wave\":\"sine\",\"startVolume\":255,\"endVolume\":0,\"startFrequency\":200,\"endFrequency\":600,\"duration\":150}"}}</data><value name="startFrequency"><shadow type="math_number_minmax" id="|G7wZ`=kjXI/!9=tkWPO"><mutation min="0" max="5000" label="StartFrequency" precision="0"></mutation><field name="SLIDER">200</field></shadow></value><value name="endFrequency"><shadow type="math_number_minmax" id="e^Xk!tO_SNL_U$YNEx08"><mutation min="0" max="5000" label="EndFrequency" precision="0"></mutation><field name="SLIDER">600</field></shadow></value><value name="duration"><shadow type="math_number_minmax" id="{|~rDCn3xgk/:ze*tIkg"><mutation min="1" max="9999" label="Duration" precision="0"></mutation><field name="SLIDER">150</field></shadow></value><value name="startVolume"><shadow type="math_number_minmax" id="Q`-@P@yVSm@Q[PaymDw!"><mutation min="0" max="255" label="StartVolume" precision="0"></mutation><field name="SLIDER">255</field></shadow></value><value name="endVolume"><shadow type="math_number_minmax" id="(Xhy/pZX4yIw9b2!NGni"><mutation min="0" max="255" label="EndVolume" precision="0"></mutation><field name="SLIDER">0</field></shadow></value></shadow></value></block></statement></block></xml>
